@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Fall and Fall of Boeing — Rohit Subramanian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f6;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #dddbd6;
+      --max: 700px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* Navigation */
+    nav {
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+    }
+
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+
+    .site-name {
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--text);
+      text-decoration: none;
+      padding: 16px 20px 16px 0;
+      margin-right: 16px;
+      border-right: 1px solid var(--border);
+    }
+
+    .nav-link {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 16px 14px;
+      letter-spacing: 0.02em;
+      transition: color 0.15s;
+    }
+
+    .nav-link:hover { color: var(--text); }
+
+    .nav-link.active {
+      color: var(--text);
+      border-bottom: 2px solid var(--text);
+    }
+
+    /* Article */
+    .article-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .article-meta {
+      margin-bottom: 40px;
+    }
+
+    .article-category {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+
+    .article-category:hover { color: var(--text); }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .article-date {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .article-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    /* Body content */
+    .article-body {
+      text-align: justify;
+    }
+
+    .article-body p,
+    .article-body div {
+      margin-bottom: 1.4em;
+    }
+
+    .article-body h2, .article-body h3 {
+      margin-top: 2em;
+      margin-bottom: 0.7em;
+      font-weight: 600;
+    }
+
+    .article-body h2 { font-size: 1.35rem; }
+    .article-body h3 { font-size: 1.1rem; }
+
+    .article-body strong { font-weight: 600; }
+
+    .article-body em, .article-body i { font-style: italic; }
+
+    .article-body a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .article-body a:hover { opacity: 0.6; }
+
+    .article-body img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 2em auto;
+    }
+
+    .article-body blockquote {
+      margin: 2em 0;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--border);
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="site-name">Rohit Subramanian</a>
+    <a href="/travel/" class="nav-link">Travel</a>
+        <a href="/history/" class="nav-link">History</a>
+        <a href="/wildlife/" class="nav-link">Wildlife</a>
+        <a href="/short-stories/" class="nav-link">Short Stories</a>
+        <a href="/music/" class="nav-link">Music</a>
+        <a href="/citizen/" class="nav-link active">Citizen</a>
+  </div>
+</nav>
+
+<article class="article-wrap">
+  <div class="article-meta">
+    <a href="/citizen/" class="article-category">Citizen</a>
+    <h1>The Fall and Fall of Boeing</h1>
+    <div class="article-date">March 3, 2022</div>
+  </div>
+  <hr class="article-divider">
+  <div class="article-body">
+    <p>Of the many thought provoking bits that Downfall pulled together in its presentation of Boeing's failures in the aftermath of the 737Max crashes, the one that struck me the most was the change in Boeing's culture in the mid 1990s.&nbsp; <br></p><p>At the surface, the easy target is unabashed Capitalism. It is fair to say that over the decades, we have come to expect American companies to optimize moneymaking potential in all of their endeavors, skirting at the edge of ethics and moral compulsions but mostly behaving within the confines of civilized society. But it was not this urge to profiteer that affected me. The forces at play here are far more complex, and subtle.&nbsp;</p><p>This phenomenon is more than just about profits.&nbsp;</p><p>***</p><p>In 1984, Bhopal suffered an explosion in a pesticides and chemicals factory. In less than a few hours, the toxic gases spread around the city and killed, maimed and permanently disfigured not only the people that were unfortunate enough to live in the city at the time, but multiple generations thereafter. More than half a million people were injured, thousands died!&nbsp;</p><p>The American company running the plant knew of safer (but more expensive) alternatives to the dangerous chemicals they were using in the production process. The facility also had a history of casualties from toxic exposure in the years leading up to the accident, but didn't institute permanent corrective actions to fix their controls.&nbsp;</p><p>And yet, even nearly 40 years after one of the World's worst man made Disasters, condemnation of the American Manufacturer, UCC, is far from unanimous. Questions are often raised on the quality of the Indian managers running the Plant and the engineers and workers who were operating the processes.&nbsp;</p><p>This is very relevant to the Boeing story, because the first public statements from Boeing and American Aerospace "Experts" in the aftermath of the crash ascertained at least a part of the blame on "Third World" pilot training. It was ironical when it eventually turned out that the pilot of the Lion Air that went down was actually trained in the United States.&nbsp;</p><p>It is more than just about profits. <br></p><p>The issue is the purported unassailability of American Engineering. Obviously the USA cant be designing poor products and processes right? Is it not more likely that the operators from poor Asian and African countries cannot comprehend the complexity of the said American products?&nbsp;</p><p>This is flawed thinking. As evidenced by Downfall, production engineers and operators (including users/consumers) are often at the mercy of design decisions made far away from the field, with limited ability to control their own destinies.&nbsp;</p><p>In a World that is driven by Centralized Design, Decentralized Manufacturing, and Global Product Application, the control of critical characteristics in the product specifications is progressively moving further and further away from the end user. And unless companies strive to democratize within their supply chain and effectively establish the feedback loops to solve these engineering problems, disasters of this magnitude will probably, unfortunately continue to happen.&nbsp;</p><p>And that's part of the reason why Homegrown Product Engineering and Manufacturing deserves the push in India.&nbsp;</p><p>* * *</p><p>The Chernobyl Nuclear Explosion happened less than 2 years after the Bhopal Tragedy. In this case, everything was designed and developed by Russians, at that time one of the World's most technologically advanced nations. But it happened in a system that was occupied from top to bottom by the State. Engineers and Scientists were valuable, but not as valuable as the Polit Bureau member who could control through his whims and fancies the allocation of resources, and hence had to be pleased.&nbsp;</p><p>In study after study, there has been critical analysis of the unintended consequences of this power dynamic - when in a moral dilemma, would an engineer owe primary allegiance to the quality of his engineering work or to the idea of serving his Motherland?&nbsp;</p><p>It is more than just about profits.&nbsp;</p><p>Boeing was in a rat race with Airbus and it was losing. To rise above this, quickly, was not just a matter of corporate rivalry, but one of national identity! Every part of the American Aerospace Industrial and Regulatory complex recognized this and agreed to work in coordination to fix it ASAP.&nbsp;</p><p>Mission statements are great in aligning the forces of bureaucracy and paperwork in a large faceless system. The problem occurs when botched mission statements stand in direct contradiction of product integrity. Should the MCAS Engineer or the Regulator reviewing it have owed primary allegiance to the quality of his engineering work or to the idea of serving Boeing/USA by letting them get ahead in the race against Airbus?&nbsp;</p><p>And if this happened in an Individualistic, Self Preservation before All Else society like America, what chance does the rest of the World stand? <br></p><p>* * *</p><p>Downfall was a very thought provoking movie and as shown above, got me thinking on multiple levels about the state of the World, and more personally about my role in the World as an Engineer.&nbsp;</p><p>What caught me the most by surprise was that one of the World's most iconic companies, through a series of changes up at the top ended up with a culture that discouraged people, 
+especially engineers and subject matter experts to speak their mind.&nbsp;</p><p>Surely, of all places in the World, the Land of the Free and Home of the
+ Brave would have given its brilliant engineers and scientists the platform to 
+debate on merits and demerits of technologies on scientific principles 
+with absolutely no other consideration.Unfortunately, no. <br></p><p>Indian Engineers around the World are now involved in the design of most products you will encounter in your life. And in their pursuits of excellence, they might do well to remember India's motto which in times like this seems more far sighted and timeless than we have given it credit for.&nbsp;</p><p>In the end, Satyameva Jayate. Truth Alone Prevails. <br></p><p><br></p><p><br></p><p><br></p>
+  </div>
+</article>
+
+<footer>
+  <p>Rohit Subramanian &middot; Written by Rohit</p>
+</footer>
+
+</body>
+</html>

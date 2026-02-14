@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Making Entrepreneurship work in India — Rohit Subramanian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f6;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #dddbd6;
+      --max: 700px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* Navigation */
+    nav {
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+    }
+
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+
+    .site-name {
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--text);
+      text-decoration: none;
+      padding: 16px 20px 16px 0;
+      margin-right: 16px;
+      border-right: 1px solid var(--border);
+    }
+
+    .nav-link {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 16px 14px;
+      letter-spacing: 0.02em;
+      transition: color 0.15s;
+    }
+
+    .nav-link:hover { color: var(--text); }
+
+    .nav-link.active {
+      color: var(--text);
+      border-bottom: 2px solid var(--text);
+    }
+
+    /* Article */
+    .article-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .article-meta {
+      margin-bottom: 40px;
+    }
+
+    .article-category {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+
+    .article-category:hover { color: var(--text); }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .article-date {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .article-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    /* Body content */
+    .article-body {
+      text-align: justify;
+    }
+
+    .article-body p,
+    .article-body div {
+      margin-bottom: 1.4em;
+    }
+
+    .article-body h2, .article-body h3 {
+      margin-top: 2em;
+      margin-bottom: 0.7em;
+      font-weight: 600;
+    }
+
+    .article-body h2 { font-size: 1.35rem; }
+    .article-body h3 { font-size: 1.1rem; }
+
+    .article-body strong { font-weight: 600; }
+
+    .article-body em, .article-body i { font-style: italic; }
+
+    .article-body a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .article-body a:hover { opacity: 0.6; }
+
+    .article-body img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 2em auto;
+    }
+
+    .article-body blockquote {
+      margin: 2em 0;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--border);
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="site-name">Rohit Subramanian</a>
+    <a href="/travel/" class="nav-link">Travel</a>
+        <a href="/history/" class="nav-link">History</a>
+        <a href="/wildlife/" class="nav-link">Wildlife</a>
+        <a href="/short-stories/" class="nav-link">Short Stories</a>
+        <a href="/music/" class="nav-link">Music</a>
+        <a href="/citizen/" class="nav-link active">Citizen</a>
+  </div>
+</nav>
+
+<article class="article-wrap">
+  <div class="article-meta">
+    <a href="/citizen/" class="article-category">Citizen</a>
+    <h1>Making Entrepreneurship work in India</h1>
+    <div class="article-date">June 26, 2011</div>
+  </div>
+  <hr class="article-divider">
+  <div class="article-body">
+    <div>I had the opportunity to watch two peripherally relevant talks/discussions yesterday that fuelled&nbsp;&nbsp;in my mind&nbsp;a few thoughts and opinions about how Entrepreneurship is going to help the Indian economy. The first of course was the Techsparks 2011, Chennai round. The second was Barack Obama's weekly address to the American people.<br>
+<br>
+Techsparks is a platform for Start up's to showcase their company, network with other such start ups, impress investors and end up getting some seed for their companies. It works like any other event of its kind. It has 5 different rounds in different regions and it was the Chennai round yesterday. There were around 25-30 Start up's who were attending the function and there was a panel discussion by people who have 'been there done that' before. There was also a Venture Capitalist in the panel which made it a very ensemble panel comprising of a VC, two experienced entrepreneurs, and two big companies which support ventures (IBM and National Instruments).It formed a complete ecosystem. As the event went on, we had a person from Intel Software talking to us, &nbsp;the founder of Bharat Matrimony addressing us, and the founder of Classle telling us his story.<br>
+<br>
+A majority of the panelists, and the guests had their ventures surrounding the Information Technology Sector. I also had a shrewd belief that the majority of the entrepreneurs sitting around me were from the same IT sector. Its only understandable, that as a Mechanical Engineer, I had only so much to take out of their knowledge sharing. On the rare occasion when they used the word "Industrial Start up" or "Tech Start up", I sat up with my ears eagerly open for something relevant to the Industry I know of, but they started talking about building platforms and enabling cloud computing and improving security and data back up services and setting up servers. I was doomed to blink all the while at their faces.<br>
+<br>
+I couldn't help but realise that India is obsessed with Information Technology. Remember, I'm no IT critic. In fact, it is essential that India plays to its strength's and one of India's few strengths today is its strong IT/ITES sector. A lot of our problems in our services and commerce sectors can be solved extensively through IT. Economically, the IT sector has a vast growth potential. But there is only so far that IT can get in building our economy. Ironical ? I'll explain.<br>
+<br>
+The Information Technology Sector in India is huuge. More than 70% of Indian entrepreneurs start up in some IT related venture. Half our engineers are employed in the IT industry. But the contribution of the IT sector is a mere 5.2% of the Indian economy. The few big IT corporations have ruled the roost and the majority of other start ups have never made it big, though they continue to be profitable for their founders.<br>
+<br>
+Nearly 50% of the Indian GDP comes from the core Manufacturing Industries and the Agricultural sector. And somehow, in all the hype surrounding India's good entrepreneurship record, these sectors have taken a hit. India is a country where the food security of the billion odd people is critical (Its a different matter that everyone doesn't get food in our country). Under such circumstances, it is a very sad fact that the agricultural output of our nation is gradually decreasing. Common sense suggests that increasing population and decreasing food production do not get along well with each other.<br>
+<br>
+Manufacturing Industries present the other sorry picture. True, Manufacturing in India never really took off. The Industrial Revolution happened in the 16th century in Europe. 400 &nbsp;years later, we still are waiting for an Industrial Revolution in India. The few big Industries set up by first generation Industrialists of the 20th Century continue to be some of the few ones in the country. We use machines and machine tools made by other countries, to manufacture goods on license from other nations to sell the goods to our people. Now how uncool is that ?<br>
+<br>
+This brings me to Barack Obama's weekly address to the American people. In his speech he underlines the importance of "being the nation which makes things", of being a nation that has advanced manufacturing facilities which it can sell to other nations and grow their economy. Now these are words coming from the most technologically advanced nation in the World, the largest Economy of the World, and from the country home to the largest number of Industries in the World. Now if this is the priority of the World's largest GDP contributor, we are after all India and far behind them. We should be working doubly hard to ensure that our countrymen work towards building a strong Industrial base in the country.<br>
+<br>
+The Information Technology Sector has only one way - the Way Up. With a bright generation of IT engineers, this sector is bound to become India's pet. Having said that, this cannot and must not happen at the expense of Agriculture and Industry. There must be far greater support to entrepreneurs across all sectors, but more specifically to Industrial and Agriculture sectors. That is the only way that our economy can grow and also improve our standards of living. In effect, it is the only way our nation can prosper.<br>
+<br>
+<br>
+<strong>Link</strong>: The Weekly Address by Barack Obama.<br>
+<br>
+<div><object width="320" height="266" class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="http://3.gvt0.com/vi/BuZp81t7BpM/0.jpg"><param name="movie" value="http://www.youtube.com/v/BuZp81t7BpM&fs=1&source=uds" /><param name="bgcolor" value="#FFFFFF" /><embed width="320" height="266"  src="http://www.youtube.com/v/BuZp81t7BpM&fs=1&source=uds" type="application/x-shockwave-flash"></embed></object></div><br>
+(Ignore the Comments. Obama, much like our own government, is suffering from a wave of mistrust and unpopularity)</div>
+  </div>
+</article>
+
+<footer>
+  <p>Rohit Subramanian &middot; Written by Rohit</p>
+</footer>
+
+</body>
+</html>

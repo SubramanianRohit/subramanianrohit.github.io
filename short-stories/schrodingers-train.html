@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schrödinger’s Train — Rohit Subramanian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f6;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #dddbd6;
+      --max: 700px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* Navigation */
+    nav {
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+    }
+
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+
+    .site-name {
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--text);
+      text-decoration: none;
+      padding: 16px 20px 16px 0;
+      margin-right: 16px;
+      border-right: 1px solid var(--border);
+    }
+
+    .nav-link {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 16px 14px;
+      letter-spacing: 0.02em;
+      transition: color 0.15s;
+    }
+
+    .nav-link:hover { color: var(--text); }
+
+    .nav-link.active {
+      color: var(--text);
+      border-bottom: 2px solid var(--text);
+    }
+
+    /* Article */
+    .article-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .article-meta {
+      margin-bottom: 40px;
+    }
+
+    .article-category {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+
+    .article-category:hover { color: var(--text); }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .article-date {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .article-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    /* Body content */
+    .article-body {
+      text-align: justify;
+    }
+
+    .article-body p,
+    .article-body div {
+      margin-bottom: 1.4em;
+    }
+
+    .article-body h2, .article-body h3 {
+      margin-top: 2em;
+      margin-bottom: 0.7em;
+      font-weight: 600;
+    }
+
+    .article-body h2 { font-size: 1.35rem; }
+    .article-body h3 { font-size: 1.1rem; }
+
+    .article-body strong { font-weight: 600; }
+
+    .article-body em, .article-body i { font-style: italic; }
+
+    .article-body a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .article-body a:hover { opacity: 0.6; }
+
+    .article-body img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 2em auto;
+    }
+
+    .article-body blockquote {
+      margin: 2em 0;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--border);
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="site-name">Rohit Subramanian</a>
+    <a href="/travel/" class="nav-link">Travel</a>
+        <a href="/history/" class="nav-link">History</a>
+        <a href="/wildlife/" class="nav-link">Wildlife</a>
+        <a href="/short-stories/" class="nav-link active">Short Stories</a>
+        <a href="/music/" class="nav-link">Music</a>
+        <a href="/citizen/" class="nav-link">Citizen</a>
+  </div>
+</nav>
+
+<article class="article-wrap">
+  <div class="article-meta">
+    <a href="/short-stories/" class="article-category">Short Stories</a>
+    <h1>Schrödinger’s Train</h1>
+    <div class="article-date">January 31, 2026</div>
+  </div>
+  <hr class="article-divider">
+  <div class="article-body">
+    <p><span>&nbsp;</span></p><div><span><img alt="" data-original-height="742" data-original-width="751" height="395" src="https://blogger.googleusercontent.com/img/a/AVvXsEgTJTZEZVS9CKXE9c85hys1RMublRF8VDKjp_FqPmDVi2efMkRMCzAbWkCidbMzaOr4wffNmeWjJ19EvTyteT3HZIzaclA4Nde6qr3xdNvBaHBT0KlsfaNbFOmwqoDWScqcTKpZ3RxK8LXCSZ6YaUB4yeV1PQTZHJhuteHxV3GGBagRRMhgW_smBcCG9bsa=w400-h395" width="400" /></span></div><div><span><br></span></div><p></p><div><i><span>“Thud!”</span></i></div><div><div><span><br></span></div><div><span>The small gray carry-on suitcase, packed plump, had its front wheels turned inwards. Unable to balance the weight of the backpack and the attached neck pillow, gravity claimed victory.</span></div><div><span><br></span></div><div><span>A young man, flustered, but unsurprised, picked it up and entered the train hurriedly as the speakers repeatedly warned people to back off as the doors were closing.</span></div><div><span><br></span></div><div><span>The noise of the diving suitcase traveled the length of the nearly empty compartment. But there were enough people to cause some injury to his pride, registered by him staring around at people’s faces.</span></div><div><span><br></span></div><div><span>The terminal transit train picked up speed. With his right hand firmly on his suitcase and loosely holding a boarding pass, he started furiously typing a number on his cell phone.</span></div><div><span><br></span></div><div><span>A pair of headphones adorned his neck with a long AUX cable hanging. As the phone started to ring, he put the headphones over his ears.</span></div><div><span><br></span></div><div><i><span>“Thud!”</span></i></div><div><span><br></span></div><div><span>Resignedly lifting up his suitcase, he started to speak on the phone</span></div><div><span><br></span></div><div><span>“Hello? Hello…. Yeah, I am supposed to be boarding EL4306 right now. My incoming flight was delayed. I’m on the train to the terminal and wanted to be sure they wouldn’t close the gates before I got there”</span></div><div><span><br></span></div><div><span>“Sure, yes, my booking confirmation is 76BA4N”</span></div><div><span><br></span></div><div><span>One is never surprised at what the “process” entails at Airline companies in the 21st century but needing to know his booking confirmation just to tell him he was very late for his flight seemed to be an interesting requirement.</span></div><div><span><br></span></div><div><span>He soldiered on.</span></div><div><span><br></span></div><div><span>“But the actual departure time is not until an hour from now!! I am already on my way to the terminal — I just called hoping you could let them know I am on my way.”</span></div><div><span><br></span></div><div><span>“Hello? Helllooo? HELLO?”</span></div><div><span><br></span></div><div><span>The train had unhelpfully descended into tunnels below the runways and network reception was understandably poor.</span></div><div><span><br></span></div><div><span>I had avoided eye contact from my seat at the end of the train wanting to spare him the embarrassment. But having been in several airport snafus myself in the past, I felt that some mild reassurance was called for in this moment.</span></div><div><span><br></span></div><div><span>“They did not offer you much assistance, eh?”</span></div><div><span><br></span></div><div><span>He was surprised at the engagement but welcomed it.</span></div><div><span><br></span></div><div><span>“No they did not. Should have never called them. I may just have given them license to bump me off the flight and sell my seat to someone from the waitlist.”</span></div><div><span><br></span></div><div><span>Basking in the warmth of my own kindness, I said, “I do not think they will do that. You said the flight doesn’t depart until an hour from now. You’ll be fine. What terminal are you getting to?”</span></div><div><span><br></span></div><div><span>“Terminal 3. Oh, and it looks like network is back up. Let me call them again and warn them against bumping me off”</span></div><div><span><br></span></div><div><span>“Hello? Yeah, I got disconnected because I am on the terminal train. Like I was saying before, I am about to get to Terminal 3 in a couple minutes.”</span></div><div><span><br></span></div><div><span>I suddenly felt the warmth leaving me.</span></div><div><span><br></span></div><div><span>Me, and the train, were approaching Terminal 6. Terminal 3 was 6 stops and at least 20 minutes away.</span></div><div><span><br></span></div><div><span>He was either doing an excellent job of buying himself time with the airline.</span></div><div><span><br></span></div><div><span>Or he was going the wrong direction.</span></div><div><span><br></span></div><div><span>I waited for him to get off the phone, wrestling with the task ahead of me.</span></div><div><span><br></span></div><div><span>As the train started to slow down, I mustered the courage to ask him, “You know that this train is going through 7,8,1,2 before it reaches Terminal 3, correct? The train in the opposite direction might be a shorter route”</span></div><div><span><br></span></div><div><span>As the train came to a halt, I got up to leave.</span></div><div><span><br></span></div><div><span>It slowly dawned upon him and his eyes grew wide. The blood drained from his face.</span></div><div><span><br></span></div><div><span>Overcome with disbelief, his hands flew to his head.</span></div><div><span><br></span></div><div><i><span>“Thud!”</span></i></div></div>
+  </div>
+</article>
+
+<footer>
+  <p>Rohit Subramanian &middot; Written by Rohit</p>
+</footer>
+
+</body>
+</html>

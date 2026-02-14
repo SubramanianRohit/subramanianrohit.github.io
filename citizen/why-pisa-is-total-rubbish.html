@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why the PISA is total rubbish — Rohit Subramanian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f6;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #dddbd6;
+      --max: 700px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* Navigation */
+    nav {
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+    }
+
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+
+    .site-name {
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--text);
+      text-decoration: none;
+      padding: 16px 20px 16px 0;
+      margin-right: 16px;
+      border-right: 1px solid var(--border);
+    }
+
+    .nav-link {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 16px 14px;
+      letter-spacing: 0.02em;
+      transition: color 0.15s;
+    }
+
+    .nav-link:hover { color: var(--text); }
+
+    .nav-link.active {
+      color: var(--text);
+      border-bottom: 2px solid var(--text);
+    }
+
+    /* Article */
+    .article-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .article-meta {
+      margin-bottom: 40px;
+    }
+
+    .article-category {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+
+    .article-category:hover { color: var(--text); }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .article-date {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .article-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    /* Body content */
+    .article-body {
+      text-align: justify;
+    }
+
+    .article-body p,
+    .article-body div {
+      margin-bottom: 1.4em;
+    }
+
+    .article-body h2, .article-body h3 {
+      margin-top: 2em;
+      margin-bottom: 0.7em;
+      font-weight: 600;
+    }
+
+    .article-body h2 { font-size: 1.35rem; }
+    .article-body h3 { font-size: 1.1rem; }
+
+    .article-body strong { font-weight: 600; }
+
+    .article-body em, .article-body i { font-style: italic; }
+
+    .article-body a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .article-body a:hover { opacity: 0.6; }
+
+    .article-body img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 2em auto;
+    }
+
+    .article-body blockquote {
+      margin: 2em 0;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--border);
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="site-name">Rohit Subramanian</a>
+    <a href="/travel/" class="nav-link">Travel</a>
+        <a href="/history/" class="nav-link">History</a>
+        <a href="/wildlife/" class="nav-link">Wildlife</a>
+        <a href="/short-stories/" class="nav-link">Short Stories</a>
+        <a href="/music/" class="nav-link">Music</a>
+        <a href="/citizen/" class="nav-link active">Citizen</a>
+  </div>
+</nav>
+
+<article class="article-wrap">
+  <div class="article-meta">
+    <a href="/citizen/" class="article-category">Citizen</a>
+    <h1>Why the PISA is total rubbish</h1>
+    <div class="article-date">January 16, 2012</div>
+  </div>
+  <hr class="article-divider">
+  <div class="article-body">
+    <div>
+<br>
+<div class="MsoNormal">
+<span lang="EN-GB">Over the last couple of days, there has
+been a lot of noise around the report by Programme for International Student
+Assessment (PISA) on the evaluation of scholastic performance of students
+across the World. To those of you who haven’t heard or seen <a href="http://economictimes.indiatimes.com/news/news-by-industry/services/education/indian-students-rank-2nd-last-in-global-test/articleshow/11492812.cms">the report</a>&nbsp;being
+widely shared on social networking sites, the study ranked India at an
+abysmally low 72 out of 73 countries – just ahead of Kyrgyzstan. To say that I
+am totally offended by the conclusion of the report would amount to giving
+merit to the report and by extension, to the study. So, I’ll just say that I’m
+amused at what the report has to say. I have my reasons – for totally
+disagreeing with not just the conclusions of the report, but with the entire
+attempt to compare the educational system of as many as 73 different countries
+on a common denominator - as I shall try to explain to you in the remainder of
+this post. </span></div>
+<div class="MsoNormal">
+<span lang="EN-GB"><br></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">To start with, let’s just take a look at
+the methodology followed in the entire study. 73 countries participated in this
+study, an addition of 10 over 65 member countries which participated in the
+previous edition. Over 5000 students from 30 different schools were
+evaluated from every participating state – Tamil Nadu and Himachal Pradesh in
+India (Randomly picked, with little logical validation) – for performance in
+tests conducted in three fundamental subjects – Reading, Math and Science. The
+results of the study were processed over nearly 2 years (the study was conducted
+in late 2009-early 2010) and an elaborate picture of educational practices
+across the World was painted.&nbsp;</span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">Ambitious, and very meticulous, we all would
+agree, but fundamentally, the logic behind the whole study is erroneous. Such a
+study, can never ever produce results that can have an iota of sense in it. </span></div>
+<div class="MsoNormal">
+<span lang="EN-GB"><br></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">Take a small example. I take the 10 brightest
+students from the Government School in Thoraipakkam, and I take the 10
+brightest students from DAV Gopalapuram. Apart from the obvious difference in
+the boards that they study in (State Board and Central Board), there’ll be a
+huge difference in their IQ levels because their access to knowledge and
+information is highly skewed. While the students from upmarket schools generally
+have a strong educational background in their families, fine teachers to tutor
+them, access to greater intellectual material, their government school
+counterparts have to rely solely on textbooks for information, apart from the
+fact that the standards of teaching are pretty low. Either school cannot be
+taken to represent the Indian education system – doing so would provide insane
+results. Add schools in the rural areas to the equation and you will appreciate
+how different each school is from the other. In such a scenario, choosing 30 schools to represent the complete education scene across the state is absurd!&nbsp;</span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">All this is only within Tamil Nadu.
+Himachal Pradesh will have completely different issues. On the whole, India has
+over 35 different secondary school boards, each with different issues and focus
+areas. If India alone has so many different parameters that need to be
+considered, imagine how complex it would get if we were studying 73 countries! </span></div>
+<div class="MsoNormal">
+<span lang="EN-GB"><br></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">This is not all. Skimming through the
+<a href="http://www.oecd.org/dataoecd/13/34/48578536.pdf">“Sample Design”</a> of the study, I found a statement that I quote here,</span></div>
+<div class="MsoNormal">
+<i><span lang="EN-GB"><br></span></i></div>
+<div class="MsoNormal">
+<i><span lang="EN-GB">The
+desired PISA target population in each country consisted of 15-year old
+students attending educational institutions in grades 7 or higher. <o:p></o:p></span></i></div>
+<div class="MsoNormal">
+<i><span lang="EN-GB"><br></span></i></div>
+<div class="MsoNormal">
+<span lang="EN-GB">In India, a 15 year old student is normally
+in his 10<sup>th</sup> Grade. From what the statement conveys, I assume that
+somewhere in the World, 15 year olds are in their seventh Grade. The question
+this raises is simple. Is the level of education at 10<sup>th</sup> Grade in a
+country equivalent to the level of education at 7<sup>th</sup> Grade in a
+different country? The study assumes so, but common sense suggests that it is
+not. Lets again take the benefit of being in India and hence, being able to
+observe the diversity in education across States and Boards. A 10<sup>th</sup>
+Grade CBSE student has a math syllabus far different from a 10<sup>th</sup>
+Grade student in the Tamil Nadu State Board or AP State Board. Over a period of
+three or four years, this difference may be neutralised, for what a student
+from CBSE learns in 10<sup>th</sup> may be a part of the 11<sup>th</sup> Std
+syllabus for State Board students and vice versa, but the study does not take
+that into consideration. Across countries, this factor is bound to have a more
+pronounced impact on the results.</span></div>
+<div class="MsoNormal">
+<span lang="EN-GB"><br></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">These systemic errors apart, there were
+some really absurd requirements for the test – like Indians having to read English
+text for the test due to lack of materials in local languages. German students
+read German, Americans read English, Chinese read Chinese, Finnish read
+Finnish, but Tamilians read English. Also, look at the rankings and you will
+see that tests were conducted in China at Shangai, their largest urban
+population, while in India it was conducted in Himachal Pradesh and different
+parts of Tamil Nadu. It requires common sense of the lowest degree to understand
+that the results would have certainly been far different if the study had been
+conducted in Delhi or Mumbai or Bangalore or just Chennai. It’s indeed baffling
+that even a study with such far-reaching consequences could have glaring flaws
+of this magnitude. </span></div>
+<div class="MsoNormal">
+<span lang="EN-GB"><br></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">The biggest glitch in the whole concept of
+this study is that, in an era when we are looking at moving away from the
+textbook and examination form of study, and focussing on method that will
+improve the application oriented outputs of students, the PISA experiments put
+the spotlight back on studying rather than applying. That is unfortunate, and rooted in outdated principles. </span></div>
+<div class="MsoNormal">
+<span lang="EN-GB"><br></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">It is really sad that without going through
+all these facts, there is a lot being written about how India must be ashamed
+of the results of the study. I agree that we cannot boast about our educational
+system. Far from perfect, there are serious flaws that need to be set right.
+But I have always believed, and continue to do so, that in a country so
+diverse, with such a wide range of cultural, social and economic differences,
+it is remarkable that we have an educational system that at the end of 18 years
+of studies in schools across nearly 40 different boards, produces students who
+have received nearly the same amount of knowledge from school. We may not have the best Education in the World, but we still succeed in producing among the best engineers, doctors, managers and economists in the World. While, we shall always strive towards improving the quality of education that students here get, I am certainly not ashamed of the education that I have received in this country, and there is no reason anyone else should be, either.&nbsp;</span></div>
+<div class="MsoNormal">
+<span lang="EN-GB"><br></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">Overall, from the land that made 3 Idiots,
+it would be incredibly stupid to take a “rating” very seriously. If anything,
+the report tells us that it is time we took steps towards improving the
+intellectual outputs of our students, reduced rote learning, increased learning
+by understanding, etc.</span></div>
+<div class="MsoNormal">
+<span lang="EN-GB"><br></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">Didn’t we know all that already?</span></div>
+<div class="MsoNormal">
+<br></div>
+<div class="MsoNormal">
+<br></div>
+<div class="MsoNormal">
+<br></div>
+<div class="MsoNormal">
+<br></div>
+<div class="MsoNormal">
+<strong><span lang="EN-GB">References:<o:p></o:p></span></strong></div>
+<div class="MsoNormal">
+<strong><span lang="EN-GB"><br></span></strong></div>
+<div class="MsoNormal">
+<span lang="EN-GB">1. &nbsp;<a href="http://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment">PISA Wiki page</a></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">2.&nbsp;<a href="http://economictimes.indiatimes.com/news/news-by-industry/services/education/indian-students-rank-2nd-last-in-global-test/articleshow/11492812.cms">The Economic Times Report</a></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">3.&nbsp;<a href="http://www.usatoday.com/news/education/2009-02-26-pisa-test_N.htm">A report by USA today on why PISA is not reliable</a></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">4.&nbsp;<a href="http://www.walesonline.co.uk/news/wales-news/2012/01/10/still-lessons-to-be-learnt-from-flawed-pisa-education-results-says-professor-david-egan-91466-30090177/">PISA controversy in UK</a></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">5.&nbsp;<a href="http://donaldclarkplanb.blogspot.com/2011/03/leaning-tower-of-pisa-7-serious-skews.html">7 serious skews of PISA - An in depth analysis on why PISA is totally flawed</a></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">6.&nbsp;<a href="http://zhaolearning.com/2010/12/10/a-true-wake-up-call-for-arne-duncan-the-real-reason-behind-chinese-students-top-pisa-performance/">A Chinese professor tells us why Chinese students topped the Rankings</a></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">7.&nbsp;<a href="http://www.heppell.net/pisa/">A Collection of Online sources which explain why PISA is not to be taken seriously</a></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">8.&nbsp;<a href="http://www.washingtonpost.com/opinions/standardized-tests-prove-im-better-than-michael-jordan/2011/03/29/AF4sdL4C_story.html">An eye-opener - Why are PISA and other standardized tests Big Jokes</a></span></div>
+<div class="MsoNormal">
+<span lang="EN-GB">9.&nbsp;<a href="http://www.education.nic.in/boards.asp">List of Education Boards in India</a></span></div>
+<div class="MsoNormal">
+<br></div>
+</div>
+  </div>
+</article>
+
+<footer>
+  <p>Rohit Subramanian &middot; Written by Rohit</p>
+</footer>
+
+</body>
+</html>

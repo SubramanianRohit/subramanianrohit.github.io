@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Making Higher Education work in India — Rohit Subramanian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f6;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #dddbd6;
+      --max: 700px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* Navigation */
+    nav {
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+    }
+
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+
+    .site-name {
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--text);
+      text-decoration: none;
+      padding: 16px 20px 16px 0;
+      margin-right: 16px;
+      border-right: 1px solid var(--border);
+    }
+
+    .nav-link {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 16px 14px;
+      letter-spacing: 0.02em;
+      transition: color 0.15s;
+    }
+
+    .nav-link:hover { color: var(--text); }
+
+    .nav-link.active {
+      color: var(--text);
+      border-bottom: 2px solid var(--text);
+    }
+
+    /* Article */
+    .article-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .article-meta {
+      margin-bottom: 40px;
+    }
+
+    .article-category {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+
+    .article-category:hover { color: var(--text); }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .article-date {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .article-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    /* Body content */
+    .article-body {
+      text-align: justify;
+    }
+
+    .article-body p,
+    .article-body div {
+      margin-bottom: 1.4em;
+    }
+
+    .article-body h2, .article-body h3 {
+      margin-top: 2em;
+      margin-bottom: 0.7em;
+      font-weight: 600;
+    }
+
+    .article-body h2 { font-size: 1.35rem; }
+    .article-body h3 { font-size: 1.1rem; }
+
+    .article-body strong { font-weight: 600; }
+
+    .article-body em, .article-body i { font-style: italic; }
+
+    .article-body a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .article-body a:hover { opacity: 0.6; }
+
+    .article-body img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 2em auto;
+    }
+
+    .article-body blockquote {
+      margin: 2em 0;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--border);
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="site-name">Rohit Subramanian</a>
+    <a href="/travel/" class="nav-link">Travel</a>
+        <a href="/history/" class="nav-link">History</a>
+        <a href="/wildlife/" class="nav-link">Wildlife</a>
+        <a href="/short-stories/" class="nav-link">Short Stories</a>
+        <a href="/music/" class="nav-link">Music</a>
+        <a href="/citizen/" class="nav-link active">Citizen</a>
+  </div>
+</nav>
+
+<article class="article-wrap">
+  <div class="article-meta">
+    <a href="/citizen/" class="article-category">Citizen</a>
+    <h1>Making Higher Education work in India</h1>
+    <div class="article-date">May 27, 2011</div>
+  </div>
+  <hr class="article-divider">
+  <div class="article-body">
+    <div>As has become customary, Jairam Ramesh has once again been caught talking too much. For a long time now, he has been proving to be a Shashi Tharoor in the making, and if he still hasn't been asked to go, it is certainly because the "Congress High Command" is showing an unprecedented amount of restraint on its part.<br>
+<br>
+The Indian Institutes of Technology and the Indian Institutes of Management have for a long time captured the imagination of Indians. Indians are people who hold education in highest regard. No man in this country earns more respect than one who is educated. And however towering a man's achievements may make him, the absence of formal education will make people look down upon him as an incomplete human. And in a country so obsessed with good quality education, &nbsp;the IIT's and the IIM's are treated as nothing less than the abode of the Almighty himself. Both these institutions are the pinnacle of any Indian's glory - at least until he starts working. Any person who says that these institutions have not contributed enough to the country certainly deserves to be hung upside down and lashed on his butt in the cruelest possible &nbsp;fashion, tried for treason and packed off to Antartica, doomed to spend the rest of his life freezing in the ice. But what if the man who says it is himself from an IIT ?<br>
+<br>
+Jairam Ramesh, an IIT - Bombay graduate in Mechanical Engineering, who went on to do a double MS at Carnegie Mellon and at Masachussets Institute of Technology, feels that IIT's and IIM's are not doing anything that significantly breaks new grounds - neither in management, nor in technology. &nbsp;And for the umpteenth time in the last 2 years since he became a part of the Cabinet of Ministers, I have no second thoughts in saying that it is such people that our Government, our parliament in particular and our country, in general, needs.<br>
+<br>
+Make no mistakes, I have nothing against the IIT, least of all the fact that I am a failed IIT aspirant. No, I still feel IIT is the best institution you can get your degree from in this country (same goes for IIM), but at the same time, I cannot fool myself into thinking that IIT is India's MIT nor that IITians are at the forefront of Indian technological brains, doing the most advanced technical stuff, doing things that are going to change the lives of common people of this country. IIT has always been ranked poorly in international ratings when compared to other world class institutions, and to rub salt on our wounds, every year, the media is always prompt to point out that India has not produced a Nobel Laureate in Science since Sir C.V.Raman. Of course there are Dr.Chandrashekar and more recently, Dr.Venkataraman, who have an Indian name, but they were both American citizens and like Shashi Tharoor says, the Nobel&nbsp;Laureate&nbsp;with an Indian Passport still eludes us.<br>
+<br>
+We, as a people, are very easily offended, and the inferiority complex is something that's been built into our system in the 200 years of British Rule. To be told that a nation of a billion people cannot have one Nobel laureate or an internationally acclaimed institution capable of producing one, is often painful for most educated Indians to take. It especially hurts when an Indian says that. So when Mr.Jairam Ramesh actually points out the facts and calls a spade a spade, we are hesitant to take his point. We still want to continue believing that IIT's and IIM's are world class institutions capable of producing the world's best scientists, and make a significant contribution to the global progress in science. My point is, Is it really that important ?<br>
+<br>
+India is at an important phase in its history. We are 1.2 billion people. We are developing, growing and we are on it real real fast. India grew at 8% in the height of a global meltdown, if you can appreciate economic figures. Under such circumstances, India's focus should be on employing every single employable person in this country. India's focus must be on providing every single organisation that can create wealth, with an abundance of labour and man power. India's focus must be on giving companies the 4 lakh engineers they need every year to prosper. In the sight of such large ambitions, the aim to get India Nobel Laureates is too small and insignificant.<br>
+<br>
+India first needs to set right its basic fundamental education system. A lot many people will say that even the schooling system is flawed, but on the contrary, I believe that the schooling system across the country, in all its non-uniformity and lack of patronage in some parts, is the best in this particular situation. Across the country, every single child passing the higher secondary examination, has more or less the same amount of knowledge, surprising for such a diverse range of syllabi and boards. The bigger problem comes in Higher education and more particularly in engineering.<br>
+<br>
+To start from the most basic issue, I feel, at four years, an engineering course is too long. The biggest recruiters in the country have time and again proved that all the skills and knowledge required to do a job in are the ones the employees get in their 6-month training period in the company. This conforms to what an average engineer experiences. I mean, no engineer, with no practical training, can claim to be knowledgeable of his work in a company. In &nbsp;such a scenario, it would be wise to reduce the length of the course to 2 years, where just the bare essentials of the core engineering discipline are taught to the students and then a more comprehensive 1 year practical training programme is offered by their employing company. This makes sense because that way, engineers are produced in 3 years instead of 4, the cost of education comes down, students become more proficient in practical jobs, and companies can mould the engineers as they like, creating a huge number of employable youth for the country.<br>
+<br>
+Over 20-30 years, a lot of these employed youth will grow rich and prosperous, either in India or elsewhere in the World. They will then be able to create employment and generate wealth through entrepreneurship, which is a natural progression for any successful technician. That will in turn promote a quicker dispersion of education, better facilities, and greater awareness. At that point of time, competition will prompt greater investment into research and development and the interest in the area will slowly develop into a culture. That culture will ultimately mature to produce a vibrant research community. It is then that winning Nobel Prizes will be a dream lot more realistic.<br>
+<br>
+India's test over the next decade or so, will not be in how many Nobel prizes they win, but in how they are able to create employment and create a skilled workforce to fill that space. And in the merit of this aspiration, it is not really important that the IIT's and the IIM's have to do something that brings us glory. Glory can wait, we have to lay the foundations first. Ultimately, before we can dream of IIT's being the modern Takshashila and Nalanda, we need to invest in &nbsp;the students of today. And until a mechanism is developed for that to be done, it is not very useful complaining about people who criticise the IIT's or any other institution in this country.&nbsp;</div>
+  </div>
+</article>
+
+<footer>
+  <p>Rohit Subramanian &middot; Written by Rohit</p>
+</footer>
+
+</body>
+</html>

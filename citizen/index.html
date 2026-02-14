@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citizen — Rohit Subramanian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f6;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #dddbd6;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    nav {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .site-name {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+      text-decoration: none;
+      padding: 16px 20px 16px 0;
+      margin-right: 16px;
+      border-right: 1px solid var(--border);
+    }
+
+    .nav-link {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 16px 14px;
+      transition: color 0.15s;
+    }
+
+    .nav-link:hover { color: var(--text); }
+
+    .nav-link.active {
+      color: var(--text);
+      border-bottom: 2px solid var(--text);
+    }
+
+    .page-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .page-header {
+      margin-bottom: 56px;
+    }
+
+    .page-header h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+
+    .page-header p {
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .post-list {
+      display: grid;
+      gap: 0;
+    }
+
+    .post-item {
+      padding: 32px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .post-item:first-child {
+      border-top: 1px solid var(--border);
+    }
+
+    .post-date {
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 8px;
+      font-family: 'Lora', Georgia, serif;
+    }
+
+    .post-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+
+    .post-title a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .post-title a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .post-excerpt {
+      font-size: 0.95rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="site-name">Rohit Subramanian</a>
+    <a href="/travel/" class="nav-link">Travel</a>
+        <a href="/history/" class="nav-link">History</a>
+        <a href="/wildlife/" class="nav-link">Wildlife</a>
+        <a href="/short-stories/" class="nav-link">Short Stories</a>
+        <a href="/music/" class="nav-link">Music</a>
+        <a href="/citizen/" class="nav-link active">Citizen</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+  <div class="page-header">
+    <h1>Citizen</h1>
+    <p>10 essays</p>
+  </div>
+
+  <div class="post-list">
+    
+    <article class="post-item">
+      <div class="post-date">March 3, 2022</div>
+      <h2 class="post-title"><a href="/citizen/the-fall-and-fall-of-boeing.html">The Fall and Fall of Boeing</a></h2>
+      <p class="post-excerpt">Of the many thought provoking bits that Downfall pulled together in its presentation of Boeing's failures in the aftermath of the 737Max crashes, the one that struck me the most…</p>
+    </article>
+
+    <article class="post-item">
+      <div class="post-date">July 26, 2020</div>
+      <h2 class="post-title"><a href="/citizen/making-for-india.html">Make for India</a></h2>
+      <p class="post-excerpt">When was the last time an Indian product truly wowed you? When a product was crafted so beautifully and was so uniquely Indian that it taught you something new about the heritage…</p>
+    </article>
+
+    <article class="post-item">
+      <div class="post-date">January 20, 2019</div>
+      <h2 class="post-title"><a href="/citizen/breakfast-cereals-electoral.html">Breakfast Cereals - An Electoral Extrapolation!</a></h2>
+      <p class="post-excerpt">Every week in my adult life has unfailingly included a trip to the local grocery store - a silent tribute to the Capitalist Fathers of the Modern Society. Every aisle in there is…</p>
+    </article>
+
+    <article class="post-item">
+      <div class="post-date">January 16, 2012</div>
+      <h2 class="post-title"><a href="/citizen/why-pisa-is-total-rubbish.html">Why the PISA is total rubbish</a></h2>
+      <p class="post-excerpt">Over the last couple of days, there has been a lot of noise around the report by Programme for International Student Assessment (PISA) on the evaluation of scholastic performance…</p>
+    </article>
+
+    <article class="post-item">
+      <div class="post-date">September 4, 2011</div>
+      <h2 class="post-title"><a href="/citizen/iampawar.html">#IamPawar</a></h2>
+      <p class="post-excerpt">India is a land of great men – from Chanakya to Chetan Bhagat, from Mahatma Gandhi to Rahul Gandhi, from Raj Kapoor to Ranbir Kapoor and from the Mauryas to Mayawati. Ruffle…</p>
+    </article>
+
+    <article class="post-item">
+      <div class="post-date">August 27, 2011</div>
+      <h2 class="post-title"><a href="/citizen/other-revolution.html">The Other Revolution...</a></h2>
+      <p class="post-excerpt">With no doubt, we are in the midst of a revolution – overstatement, it may seem – but I’ll call it revolution nevertheless. We are finally learning the power of the democracy we…</p>
+    </article>
+
+    <article class="post-item">
+      <div class="post-date">June 26, 2011</div>
+      <h2 class="post-title"><a href="/citizen/making-entrepreneurship-work-in-india.html">Making Entrepreneurship work in India</a></h2>
+      <p class="post-excerpt">I had the opportunity to watch two peripherally relevant talks/discussions yesterday that fuelled in my mind a few thoughts and opinions about how Entrepreneurship is going to…</p>
+    </article>
+
+    <article class="post-item">
+      <div class="post-date">May 27, 2011</div>
+      <h2 class="post-title"><a href="/citizen/making-higher-education-work-in-india.html">Making Higher Education work in India</a></h2>
+      <p class="post-excerpt">As has become customary, Jairam Ramesh has once again been caught talking too much. For a long time now, he has been proving to be a Shashi Tharoor in the making, and if he still…</p>
+    </article>
+
+    <article class="post-item">
+      <div class="post-date">April 9, 2011</div>
+      <h2 class="post-title"><a href="/citizen/why-i-shouldnt-have-supported-india.html">Why I shouldn't have supported "India against Corruption"...</a></h2>
+      <p class="post-excerpt">I am extremely upset, angry and disappointed with myself. For the last 4 days now, I have been supporting "India against Corruption", watching Anna Hazare live on all the news…</p>
+    </article>
+
+    <article class="post-item">
+      <div class="post-date">April 5, 2011</div>
+      <h2 class="post-title"><a href="/citizen/talking-of-ammatamil-nadu-and-elections.html">Talking Of Amma,Tamil Nadu and Elections !</a></h2>
+      <p class="post-excerpt">The Amma in the title refers not to my mother, though it could, cos Mom's rock too. But, no, it refers to my favourite, most entertaining, most inspirational, and most…</p>
+    </article>
+  </div>
+</div>
+
+<footer>
+  <p>Rohit Subramanian</p>
+</footer>
+
+</body>
+</html>

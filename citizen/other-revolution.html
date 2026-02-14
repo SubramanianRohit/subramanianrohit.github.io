@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Other Revolution... — Rohit Subramanian</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f6;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #dddbd6;
+      --max: 700px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* Navigation */
+    nav {
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+    }
+
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-wrap: wrap;
+    }
+
+    .site-name {
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--text);
+      text-decoration: none;
+      padding: 16px 20px 16px 0;
+      margin-right: 16px;
+      border-right: 1px solid var(--border);
+    }
+
+    .nav-link {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 16px 14px;
+      letter-spacing: 0.02em;
+      transition: color 0.15s;
+    }
+
+    .nav-link:hover { color: var(--text); }
+
+    .nav-link.active {
+      color: var(--text);
+      border-bottom: 2px solid var(--text);
+    }
+
+    /* Article */
+    .article-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .article-meta {
+      margin-bottom: 40px;
+    }
+
+    .article-category {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+
+    .article-category:hover { color: var(--text); }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .article-date {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .article-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    /* Body content */
+    .article-body {
+      text-align: justify;
+    }
+
+    .article-body p,
+    .article-body div {
+      margin-bottom: 1.4em;
+    }
+
+    .article-body h2, .article-body h3 {
+      margin-top: 2em;
+      margin-bottom: 0.7em;
+      font-weight: 600;
+    }
+
+    .article-body h2 { font-size: 1.35rem; }
+    .article-body h3 { font-size: 1.1rem; }
+
+    .article-body strong { font-weight: 600; }
+
+    .article-body em, .article-body i { font-style: italic; }
+
+    .article-body a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .article-body a:hover { opacity: 0.6; }
+
+    .article-body img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 2em auto;
+    }
+
+    .article-body blockquote {
+      margin: 2em 0;
+      padding: 0 0 0 24px;
+      border-left: 3px solid var(--border);
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="site-name">Rohit Subramanian</a>
+    <a href="/travel/" class="nav-link">Travel</a>
+        <a href="/history/" class="nav-link">History</a>
+        <a href="/wildlife/" class="nav-link">Wildlife</a>
+        <a href="/short-stories/" class="nav-link">Short Stories</a>
+        <a href="/music/" class="nav-link">Music</a>
+        <a href="/citizen/" class="nav-link active">Citizen</a>
+  </div>
+</nav>
+
+<article class="article-wrap">
+  <div class="article-meta">
+    <a href="/citizen/" class="article-category">Citizen</a>
+    <h1>The Other Revolution...</h1>
+    <div class="article-date">August 27, 2011</div>
+  </div>
+  <hr class="article-divider">
+  <div class="article-body">
+    <div><br>
+<div class="MsoNormal"><span lang="EN-GB">With no doubt, we are in the midst of a revolution – overstatement, it may seem – but I’ll call it revolution nevertheless. We are finally learning the power of the democracy we so lovingly embraced. We are learning, finally, the power of the methods we used to embrace democracy in the first place. History is one of those subjects that one would rarely learn by application, yet, any student of history who reads Satyagraha today, will have no difficulties understanding what it means – what it means to sacrifice one’s self for the greater good; what it means to win morally when legally, constitutionally, you are down and out. </span></div><div class="MsoNormal"><br>
+</div><div class="MsoNormal"><span lang="EN-GB">But significantly, the revolution raises several bigger questions – as it is supposed to. Is this all that democracy is? Does democracy essentially mean taking to the streets when your demands aren’t met? Is satyagraha all about moral uprightness or about blackmailing the establishment into conceding what you want, in the face of support from a public that is convinced in its blind beliefs in what their efforts will result in?</span></div><div class="MsoNormal"><br>
+</div><div class="MsoNormal"><span lang="EN-GB">But of course, something is better than nothing. For years now, we have scorned at our own helplessness; our own inability to strike down what we see as injustice; our inertness to a corrupt bureaucracy that has fed itself into a monster over 200 years of colonial and post-colonial rot. The impatience had been growing through all those decades, with us looking for the slightest opportunity to help the cause when some bold man took the initiative – for we are not a nation of leaders, we are a nation of followers – and deal a blow to venomous snake, so it would never raise its ugly head again. Our reaction is a product not of corruption, but of our very own restlessness; our impatience at not being able to ‘make a change’ as they popularly call it. </span></div><div class="MsoNormal"><span lang="EN-GB"><br>
+</span></div><div class="MsoNormal"><span lang="EN-GB">But there again comes a question. To what ends are we fighting this injustice? What is our purpose? To end corruption? And will one law change it all? The laws are already there, aren’t they? Did we need a super hero who would have unparalleled power to prosecute anyone with dirty spots to bring known defaulters to book? Indeed, did we need powerful legislation to put the Raja’s and the Kalmadi’s and the Kanimozhi’s behind bars? The laws have always been there. And the laws have always been powerful. We haven’t just had the intent – a strong will to remove corruption.</span></div><div class="MsoNormal"><span lang="EN-GB"><br>
+</span></div><div class="MsoNormal"><span lang="EN-GB">For, alas, we have always failed to understand – Corruption is not a national issue. Its a personal one. The nation is corrupt because we are corrupt. And no amount of satyagraha and no amount of democracy is going to help us root out corruption if the people – the fundamental pillar of democracy – do not root out corruption from within them. Corruption thrives because we refuse to let it die. And a thousand lokpals and superhero’s won’t make a difference as long as the people refuse to make that one small change within themselves. </span></div><div class="MsoNormal"><span lang="EN-GB">So while we may all wish that just fasting for a fortnight and leading a very charged up patriotic life, we may be changing the way our children live in this country, we will have to be disappointed - for we are trying to change the image without changing our perception. And no matter how much we try to clean the dirty looking world and make it look normal again, it won’t happen, ‘cos we are the ones wearing dirty glasses in the first place.</span></div><div class="MsoNormal"><span lang="EN-GB"><br>
+</span></div><div class="MsoNormal"><span lang="EN-GB">Adamantly overlooking that fact, we insist on creating problems for the establishment – an establishment that is already overridden with challenges, challenges of Governance, challenges of satisfying the needs of the needy, challenges of helping the lowest rungs of the society survive; an establishment that looks so unsure of itself that it may cease to be on its own, without much help from those who want to see its end; an establishment that is on the brink of sinking under the weight of its guilt, the weight of its conscience, the weight of its failure in fulfilling a dream that it so foolishly showed us. However, it wouldn’t be inaccurate to say that unless we allowed the people we elected to rule over us without casting doubts over their integrity, they shall never succeed in ruling over us. Removing corruption won’t feed a hungry man, nor will it give a homeless man shelter, nor an unemployed youth a job, nor a criminal any reason to reform. <span style="mso-spacerun: yes;">&nbsp;</span>We shall become clean, but that will not make us prosperous. And successful though we may be in winning the battle of the day, the war of the future of our nation shall be lost.</span></div><div class="MsoNormal"><span lang="EN-GB"><br>
+</span></div><div class="MsoNormal"><span lang="EN-GB">With no doubt, we are in the midst of a revolution – overstatement, it may seem – but I’ll call it revolution nevertheless. For we are finally realising that while on the outside, we all look to bring down a corrupt establishment, we are all waging a much bigger battle – a battle within ourselves. And until this revolution succeeds as magnificently as the one we see outside us, the fight against corruption would have been a lost cause.</span></div></div>
+  </div>
+</article>
+
+<footer>
+  <p>Rohit Subramanian &middot; Written by Rohit</p>
+</footer>
+
+</body>
+</html>
